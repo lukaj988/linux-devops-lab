@@ -1,0 +1,19 @@
+name: Linux Check
+
+on:
+  push:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+
+      - name: Display Info
+        run: |
+          echo "Hello Luka"
+          pwd
+          ls - la
