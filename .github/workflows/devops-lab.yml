@@ -22,3 +22,9 @@ jobs:
 
       - name: Show date
         run: date
+
+      - name: Docker version
+        run: docker --version
+
+      - name: Run Script
+        run: ./scripts/check-system.sh
