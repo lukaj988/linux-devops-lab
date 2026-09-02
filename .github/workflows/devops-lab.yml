@@ -26,5 +26,5 @@ jobs:
       - name: Docker version
         run: docker --version
 
-      - name: Run Script
-        run: ./scripts/check-system.sh
+  #    - name: Run Script
+   #     run: ./scripts/check-system.sh
